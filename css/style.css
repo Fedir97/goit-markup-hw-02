@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #E5E5E5;
+}
+
+
+
+.social-links2 button:hover {
+    cursor: pointer;
+    color: #2196F3;
+}
+
+.social-links3 p {
+    font-weight: 400;
+    font-size: 16;
+    line-height: 0.5;
+    color: #757575;
+
+}
+
+.social-links3 h3 {
+    font-weight: 700;
+    font-size: 18;
+    line-height: 0.49;
+    ;
+    color: #212121;
+
+}
+
+.social-links a:hover {
+    color: #2196F3
+}
+
+.social-links4 a:hover {
+    color: #2196F3
+}
