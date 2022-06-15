@@ -1,0 +1,121 @@
+:root {
+    --white: #E5E5E5;
+    --blue: #2196F3;
+    --black: #212121;
+    --grew: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/* --header-- */
+.logo {
+    font-size: 'Raleway';
+    Font-style: Bold;
+    font-size: 26px;
+    line-height: 0.83;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.logo-accent {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.links a {
+    font-size: 14px;
+    Line-height: 0.87;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.02em;
+    Fill: Solid;
+    text-decoration: none;
+    color: var(--black);
+
+}
+
+.links a:hover {
+    color: var(--blue);
+
+}
+
+.contacts a {
+    font-size: 14px;
+    Line-height: 0.58;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.02em;
+    Fill: Solid;
+    color: var(--grew);
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    color: var(--blue);
+}
+
+/* --1section-- */
+
+
+.btn button {
+    font-size: 16px;
+    font-family: 500;
+    line-height: 0.61;
+    text-align: Center;
+    vertical-align: Top;
+    Letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.description {
+    font-size: 16px;
+    Line-height: 0.53;
+    line-height: 160%;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.03em;
+    color: var(--grew);
+
+}
+
+.Name {
+    font-size: 18px;
+    line-height: 0.5;
+    Line-height: 171%;
+    text-align: Left;
+    vertical-align: Top;
+    Letter-spacing: 0.06em;
+    color: var (black)
+}
+
+/* --footer-- */
+.contacts2 a {
+    font-size: 14px;
+    line-height: 0.58;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 3%;
+    Fill: Solid;
+    text-decoration: none;
+}
+
+.contacts2 a:hover {
+    color: var(--blue);
+}
