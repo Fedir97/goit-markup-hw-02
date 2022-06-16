@@ -1,0 +1,152 @@
+:root {
+    --white: #E5E5E5;
+    --blue: #2196F3;
+    --black: #212121;
+    --grew: #757575;
+    --light-black: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+/* --header-- */
+.logo1 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 0.83;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.03em;
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.logo-accent1 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.linkers {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.information .linkers:hover {
+    color: var(--blue);
+
+}
+
+.mail-link {
+    font-size: 14px;
+    Line-height: 0.58;
+    letter-spacing: 0.02em;
+    color: var(--grew);
+    text-decoration: none;
+}
+
+.mail-link:hover {
+    color: var(--blue);
+}
+
+/* --1section-- */
+
+
+.btn-list button {
+    font-size: 16px;
+    line-height: 0.61;
+    Letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.btn-list button:hover {
+    cursor: pointer;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.description {
+    font-size: 16px;
+    Line-height: 0.53;
+    letter-spacing: 0.03em;
+    color: var(--grew);
+
+}
+
+.Goods {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var (black)
+}
+
+.description {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--grew);
+}
+
+/* --footer-- */
+footer {
+    background-color: var(--light-black);
+}
+
+.logo2 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 0.83;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.logo-accent2 {
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+    letter-spacing: 0.03em;
+    color: var(--white);
+}
+
+.contacts2 {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: Left;
+    vertical-align: Top;
+    letter-spacing: 0.03em;
+    Fill: Solid;
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+
+}
+
+.link2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.contacts2 a:hover {
+    color: var(--blue);
+}
