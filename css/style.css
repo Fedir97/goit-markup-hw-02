@@ -19,7 +19,7 @@ li {
 .logo1 {
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 0.83;
+    line-height: 1.17;
     text-align: Left;
     vertical-align: Top;
     letter-spacing: 0.03em;
@@ -30,14 +30,14 @@ li {
 .logo-accent1 {
     font-weight: 700;
     font-size: 26px;
-    line-height: 1, 19;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--black);
 }
 
 .linkers {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--black);
     text-decoration: none;
@@ -50,7 +50,7 @@ li {
 
 .mail-link {
     font-size: 14px;
-    Line-height: 0.58;
+    Line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--grew);
     text-decoration: none;
@@ -65,7 +65,7 @@ li {
 
 .btn-list button {
     font-size: 16px;
-    line-height: 0.61;
+    line-height: 1.6;
     Letter-spacing: 0.03em;
     color: var(--black);
 }
@@ -78,7 +78,7 @@ li {
 
 .description {
     font-size: 16px;
-    Line-height: 0.53;
+    Line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--grew);
 
@@ -86,14 +86,14 @@ li {
 
 .Goods {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var (black)
 }
 
 .description {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--grew);
 }
@@ -106,7 +106,7 @@ footer {
 .logo2 {
     font-family: 'Raleway';
     font-size: 26px;
-    line-height: 0.83;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--blue);
@@ -116,7 +116,7 @@ footer {
 
     font-weight: 700;
     font-size: 26px;
-    line-height: 1, 19;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--white);
 }
@@ -141,7 +141,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
