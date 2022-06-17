@@ -69,7 +69,7 @@ li {
 
 
 .contacts a:hover {
-    color: var(--blue);
+    color: var(--additional-color);
 }
 
 /*Section*/
