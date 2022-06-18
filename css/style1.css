@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: var(--type-color);
+    margin: 0;
 }
 
 li {
@@ -18,6 +19,22 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+}
+
+/*Container*/
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Heder*/
@@ -34,12 +51,6 @@ a {
 
 .logo-accent {
     color: var(--type-color);
-}
-
-/*Conteiner*/
-
-.container {
-    width: 1200px;
 }
 
 section {
@@ -125,7 +136,6 @@ section {
 .hero {
     text-align: center;
     background-color: var(--phone-color);
-    width: 1600px;
     height: 600px;
 }
 
