@@ -8,12 +8,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-      font-size: 14px;
+    font-size: 14px;
     color: var(--type-color);
 }
 
 li {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Heder*/
@@ -24,72 +28,135 @@ li {
     text-align: left;
     vertical-align: top;
     letter-spacing: 0.03em;
-    text-decoration: none;
     color: var(--additional-color);
+    padding-left: 215px;
 }
 
 .logo-accent {
     color: var(--type-color);
 }
 
-.info {
-    display: flex;
+/*Conteiner*/
+
+.container {
+    width: 1200px;
 }
 
-.nav-bar {
-    width: 100%;
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/*Main-nav*/
+
+.main-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
-.current{
-    color: var(--additional-color--);
+
+.site-nav {
+    display: flex;
+    margin-left: 93px;
 }
-.link-info {
+
+.site-nav .item {
+    margin-right: 50px;
+    display: block;
+}
+
+.site-nav .item:last-child {
+    margin-right: 0px;
+}
+
+.site-nav .link-info {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    color: var(--type-color);
+}
+
+.link-studio {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-    color: var(--type-color);
-    text-decoration: none;
+    color: var(--additional-color);
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
-.info .link-info:hover {
+.site-nav .link-info:hover {
     color: var(--additional-color);
     background-color: transparent;
 }
 
-.contacts .link1 {
+.link1 {
     font-size: 14px;
     line-height: 1.14;
     line-height: 100%;
     text-align: left;
-    vertical-align: top;
     letter-spacing: 0.02em;
     color: var(--mini-calor);
     text-decoration: none;
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
+.contacts {
+    display: flex;
+    margin-left: 215px;
+}
+
+.contacts .points {
+    margin-right: 50px;
+}
+
+.contacts .points:last-child {
+    margin-right: 0px;
+}
 
 .contacts a:hover {
     color: var(--additional-color);
 }
 
 /*Section*/
+.hero {
+    text-align: center;
+    background-color: var(--phone-color);
+    width: 1600px;
+    height: 600px;
+}
+
+.hero-title {
+    font-size: 44px;
+    line-height: 1.4;
+    line-height: 0.73;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 200px;
+    padding-left: 452px;
+    padding-right: 452px;
+
+}
+
+
 .btn {
     font-size: 16px;
     line-height: 1.9;
-    text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--additional-color);
     cursor: pointer;
     outline: none;
-    border: none;
+    border: 32px;
     border-radius: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: white;
     font-weight: 700;
+    padding: 10px 10px 10px 10px;
+    margin-top: 30px;
 }
 
 .btn:hover {
@@ -101,14 +168,21 @@ li {
     background-color: var(--phone-color);
 }
 
-.hero {
-    font-size: 44px;
-    line-height: 1.4;
-    line-height: 0.73;
-    letter-spacing: 0.06em;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
+/*Feature-list*/
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.feature-list .marks {
+    margin-right: 30px;
+    padding-left: 26px;
+}
+
+.feature-list .marks:last-child {
+    margin-right: 0px;
 }
 
 .link {
@@ -117,6 +191,7 @@ li {
     letter-spacing: 0.03em;
     color: var(--type-color);
     text-transform: uppercase;
+
 }
 
 .description {
@@ -182,7 +257,6 @@ footer {
     text-align: left;
     vertical-align: top;
     letter-spacing: 0.03em;
-    text-decoration: none;
     color: var(--additional-color);
 
 }
@@ -197,7 +271,7 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    text-decoration: none;
+
 }
 
 .phone-number {
@@ -206,7 +280,7 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+
 }
 
 .information a:hover {
