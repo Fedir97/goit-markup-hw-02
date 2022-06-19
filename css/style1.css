@@ -27,6 +27,15 @@ a {
 
 }
 
+/*List*/
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
 /*Container*/
 
 .container {
@@ -37,7 +46,7 @@ a {
     margin-right: auto;
 }
 
-/*Heder*/
+/*Header*/
 .logo1 {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -72,7 +81,6 @@ section {
 
 .site-nav .item {
     margin-right: 50px;
-    display: block;
 }
 
 .site-nav .item:last-child {
@@ -81,8 +89,6 @@ section {
 
 .site-nav .link-info {
     display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
     color: var(--type-color);
 }
 
@@ -93,8 +99,6 @@ section {
     letter-spacing: 0.02em;
     color: var(--additional-color);
     display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
 }
 
 .site-nav .link-info:hover {
@@ -132,7 +136,7 @@ section {
     color: var(--additional-color);
 }
 
-/*Section*/
+/*Герой*/
 .hero {
     text-align: center;
     background-color: var(--phone-color);
@@ -145,10 +149,8 @@ section {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: white;
-    padding-top: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
-
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 
@@ -165,7 +167,6 @@ section {
     color: white;
     font-weight: 700;
     padding: 10px 10px 10px 10px;
-    margin-top: 30px;
 }
 
 .btn:hover {
@@ -214,7 +215,7 @@ section {
 .photos {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .work {
@@ -260,6 +261,7 @@ section {
 /*footer*/
 footer {
     background-color: var(--phone-color);
+    height: 252px;
 }
 
 .logo1 {
@@ -283,6 +285,7 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-left: 150px;
 
 }
 
@@ -292,6 +295,7 @@ footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-left: 150px;
 
 }
 
